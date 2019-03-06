@@ -204,6 +204,14 @@ footer{
 	text-align: left;
 	margin: 7%;
 }
+.footer-central a{
+	text-decoration: none;
+    color: #fff;
+}
+.footer-central a:hover{
+	font-weight: bolder;
+	color: #3f51b5;
+}
 .footer-central h2{
 	text-align: left;
 	font-size: 1.5em;
@@ -864,17 +872,17 @@ button.submit:active {
 	text-align: center;
 	margin: 0 5%;
 	padding-bottom: 0.5%;
-	font-size: 0.7em;
+	font-size: 0.6em;
 }
 .project-info p{
 	text-align: left;
 	margin-left: 5%;
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 .project-info h3{
 	padding-bottom: 1%;
 	font-weight: normal;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 .edge-right{
 	position: fixed;
