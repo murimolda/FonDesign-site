@@ -329,9 +329,18 @@ footer{
 	width: 50%;
 	padding: 4% 6%;
 }
+.promo-text-gray-strip-line{
+	padding: 4% 6%;
+}
 .promo-text-gray-strip p{
 	text-indent: 1.5em;
  	padding-bottom: 5%;
+}
+.promo-text-gray-strip-line p{
+	font-size: 0.9em;
+	text-indent: 1.5em;
+	text-align: justify;
+ 	padding-bottom: 1.5%;
 }
 .promo-text-gray-strip b{
 	font-size: 1.5em;
@@ -1452,6 +1461,9 @@ button.submit:active {
 	.promo-text-gray-strip {
 	    width: 100%;
 	    padding: 0 4%;
+	}
+	.promo-text-gray-strip-line {
+	    padding: 1% 4%;
 	}
 	.promo-white-strip-foto {
 	    width: 100%;
