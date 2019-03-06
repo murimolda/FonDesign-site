@@ -856,17 +856,25 @@ button.submit:active {
 .design-projects-main h2{
 	padding-bottom: 2%;
 }
-.design-projects-main h3{
-	padding-bottom: 1%;
-	font-weight: normal;
-}
 .design-projects-main img{
 	padding-top: 2%;
 	max-height: 90vh;
 }
 .design-projects-main p{
+	text-align: center;
+	margin: 0 5%;
+	padding-bottom: 0.5%;
+	font-size: 0.7em;
+}
+.project-info p{
 	text-align: left;
 	margin-left: 5%;
+	font-size: 0.9em;
+}
+.project-info h3{
+	padding-bottom: 1%;
+	font-weight: normal;
+	font-size: 1.2em;
 }
 .edge-right{
 	position: fixed;
@@ -936,11 +944,6 @@ button.submit:active {
 .design-projects-main-line-clip a{
 	text-decoration: none;
 	color: #000;
-}
-.design-projects-main.project p{
-	text-align: justify;
-	margin: 0 5%;
-	padding-bottom: 0.5%;
 }
 
 /* горизонтальная линия перед текстом, привязанная к ширине текста */
@@ -1118,9 +1121,6 @@ button.submit:active {
 	}
 	.promo-white-strip-text {
 	    padding: 1%;
-	}
-	.design-projects-main p{
-		font-size: 0.9em;
 	}
 	.footer-central-block:first-child{
 	    width: 100%;
