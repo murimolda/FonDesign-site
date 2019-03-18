@@ -725,6 +725,11 @@ footer{
 	float: left;
 	width: 50%;
 }
+.contacts-line a{
+	text-decoration: none;
+	color: #000;
+}
+
 .contacts-line h3{
 	padding-bottom: 2%;
 	font-weight: normal;
@@ -1745,6 +1750,13 @@ button.submit:active {
 	}
 	.design-projects-main-line-clip {
 	    left: 59%;
+	}
+	.logo {
+	    position: absolute;
+	    top: 1.5%;
+	    left: 1%;
+	    z-index: 1000;
+	    background-color: transparent;
 	}
 }
 	@media (max-width: 350px){
