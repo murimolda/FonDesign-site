@@ -6,17 +6,15 @@ if (empty($bezspama)) /* Оценка поля bezspama - должно быть 
                 "X-Mailer: PHP/" . phpversion();
          
     $theme = "Сообщение с сайта Fondesign";
-    $checkbox = $_POST["checkbox"];
+    $checkbox = $_POST['checkbox'];
     if(empty($checkbox)) 
 	  {
 	    $checkboxArrey = "Услуги не выбраны";
 	  } 
 	  else
 	  {
-	    $N = count($checkbox);
-	    for($i=0; $i < $N; $i++)
-	    {
-	      $checkboxArrey = ($aDoor[$i] . " ");
+	    foreach ($checkbox as $checkboxArrey => $value) {
+	    	$checkboxArrey = ($value . " ");
 	    }
 	  }             
              
